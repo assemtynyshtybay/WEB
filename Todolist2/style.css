@@ -1,0 +1,74 @@
+
+*, html, body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    color: #555555;
+    background-color: black;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-family: "Arial " , sans-serif;
+}
+
+.main {
+    width:70%;
+    margin: auto;
+}
+
+input[type="text"] {
+    padding: 8px 6px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.delete {
+    float:right;
+    right: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 50s;
+}
+.delete img{
+    width:30px;
+    height: 20px;
+}
+
+
+
+.item {
+    padding: 15px 15px 15px 15px ;
+    position: relative;
+    border-bottom: 1px solid grey;
+
+}
+
+label {
+    padding: 10px;
+    transition: 1s;//time of process
+}
+
+.add {
+    padding: 8px;
+    background-color: #3b5998;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    margin-left: 25px;
+}
+
+#items {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.form {
+    width: 100%;
+    margin: 50px auto;
+}
