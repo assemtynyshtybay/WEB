@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    background-color: #FAFAFA;
+}
+.main_content {
+    margin-top: 20px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+}
+.left {
+    float: left;
+    width: 500px;
+}
+.left img {
+    width: 375px;
+    padding-top: 120px;
+    float: right;
+    padding-right: 10px;
+}
+.right {
+    float: right;
+    width: 480px;
+}
+.registration {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 345px;
+    height: 620px;
+    border: 1px solid #E6E6E6;
+    background-color: white;
+}
+.logo{
+    margin-top: 25px;
+    background-color: white;
+    width: 180px;
+    margin-left: 80px;
+}
+.registration p {
+    margin-top: 5px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    font-size: 17px;
+    color: #999999;
+    font-weight: normal;
+}
+.registration button {
+    margin-top: 20px;
+    width: 272px;
+    margin-left: 38px;
+    background-color: #4169E1;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    color: white;
+    font-weight: bold;
+}
+.facebook {
+    width: 15px;
+    margin-right: 7px;
+}
+#probel {
+    margin-top: 15px;
+    color: #DBDBDB;
+}
+#ili {
+    color: #999999;
+    font-size: 14px;
+    background-color: white;
+}
+.info {
+    margin-top: 15px;
+    margin-left: 37px;
+    background-color: white;
+}
+.info td{
+    background-color: white;
+}
+.info input{
+    width: 270px;
+    height: 35px;
+    border: 1px solid #EFEFEF;
+    margin-bottom: 5px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+.info input::placeholder {
+    color: #b4b4b4;
+    font-size: 12px;
+    padding-left: 7px;
+}
+#btn2 {
+    margin-top: 5px;
+}
+#apply {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 230px;
+    line-height: 18px;
+}
+#apply a {
+    text-decoration: none;
+    color: #999999;
+    font-weight: bold;
+    background-color: white;
+}
+.enter {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 345px;
+    border: 1px solid #E6E6E6;
+    background-color: white;
+}
+.enter p {
+    background-color: white;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 14px;
+}
+.enter a {
+    text-decoration: none;
+    color: dodgerblue;
+    background-color: white;
+}
+.install{
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 345px;
+    text-align: center;
+    font-size: 14px;
+}
+.app {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 345px;
+    text-align: center;
+}
+.app img {
+    width: 136px;
+}
+.footer {
+    margin-top: 20px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer ul {
+    list-style-type: none;
+}
+.footer li {
+    float: left;
+    font-size: 12px;
+    margin-right: 22px;
+}
+.footer a {
+    text-decoration: none;
+    color: #003569;
+}
+.copyright {
+    padding-top: 25px;
+    font-size: 12px;
+    color: #9FA19F;
+    padding-bottom: 40px;
+}
