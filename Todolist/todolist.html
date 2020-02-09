@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <link href="todostyle.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/aj">
+</head>
+<script src="todo2.js"></script>
+<body onload="container.construct();">
+    <div class="container" id="container">
+        <div class="header">
+            <div id="error" class="error"></div>
+            <div class="title">
+            <p>ToDo List</p>
+            </div>
+        </div>
+        <div class="mid">
+            <p>ToDo List</p>
+            <input type="text" id="add_row" placeholder="New Task" >
+            <input id="btn" type="button" value="Add" >
+            <div class="add_list">
+
+                <ul id="list">
+<!--                    <li></li>-->
+                </ul>
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
