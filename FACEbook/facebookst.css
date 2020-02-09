@@ -1,0 +1,274 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+body
+{
+    background-image: linear-gradient(#fff,#d9ddeb);
+
+}
+.agree{
+    color: #2980b9;
+    text-decoration: none;
+
+}
+.register{
+    font-weight: bold;
+    font-size: large;
+    background-color: #639A4F;
+    border-radius: 5px;
+    height: 35px;
+    width: 180px;
+    color: white;
+    border: 1px solid #ffffff;
+}
+.li3{
+    color: #2980b9;
+    text-decoration: none;
+ }
+.li3:hover{
+    color:#3B5998;
+    text-decoration: underline;
+}
+.create{
+    color: dimgray;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.agrees{
+    color: grey;
+    font-size: 12px;
+}
+.agree:hover{
+    color:#3B5998;
+    text-decoration: underline;
+}
+header{
+    background-color: #3D5B99;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #133783;
+    color: white;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.headf{
+    width: 980px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lang{
+    margin-top: 20px;
+    word-spacing: 2px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    line-height: 25px;
+}
+.ul2{
+    text-decoration: none;
+    color: #2980b9;
+    font-size: 14px;
+}
+.ul2:hover{
+    color: #3B5998;
+    text-decoration: underline;
+}
+.lang h6{
+    overflow: hidden;
+    color: #8fb1d8;
+    text-decoration: underline;
+}
+.lang a{
+    text-decoration: none;
+    color: #3B5998;
+    font-size: 14px;
+}
+.lang a:hover{
+    color: #2980b9;
+    text-decoration: underline;
+}
+.wordimg{
+    float: left;
+}
+.wordimg img{
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: auto;
+
+}
+.login{
+    float: right;
+    font-size: 12px;
+}
+.email{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.email input[type="username"]{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+    margin-top: 4px;
+}
+.pw{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.pw input[type="password"]{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+    margin-top: 4px;
+}
+#l1{
+    color: #8fb1d8;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+#l1:hover {
+    color: white;
+    text-decoration: underline;
+}
+.li2{
+    color: #3B5998;
+    text-decoration: none;
+    float: right;
+    font-size: 12px;
+}
+.li2:hover{
+    color: #1d2a5b;
+    text-decoration: underline;
+}
+.in input[type="button"]:hover{
+    background-color: #3B5998;
+}
+form{
+    margin-top: 10px;
+    font-size: large;
+}
+form #m{
+    margin-left: 5px;
+}
+.in {
+    float: left;
+    color: white;
+    font-size: 12px;
+
+}
+.in input[type="button"]{
+    color: white ;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #2980b9;
+    border:1px solid #29487d;
+    padding: 0.5px 0.5px 0.5px 0.5px;
+    border-radius: 2px;
+    height: 25px;
+    width: 45px;
+    margin-top:37px;
+    margin-left: 15px;
+}
+.agrees .create{
+    text-decoration: none;
+}
+.mid{
+    overflow: hidden;
+    width: 980px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.map p{
+    color:#0e385f;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.info{
+
+}
+.info input[type="text"]{
+
+
+}
+.input1 {
+    height: 37px;
+    width: 180px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: large;
+    margin-right: 10px;
+}
+table{
+    grid-gap: 10px 10px;
+
+}
+.input2 {
+    height: 37px;
+    width: 400px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: large;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.map{
+    margin-top: 50px;
+    float:left;
+}
+.map img{
+    margin-top: 10px;
+}
+.autor {
+    float: right;
+    margin-top: 20px;
+}
+.autor h2{
+    font-size: 2.5em;
+}
+.autor p{
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.opt1{
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    padding-left: 2px;
+    border-radius: 5px;
+}
+.last{
+    padding-bottom: 5px;
+    width:30px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 17px;
+    color: dimgray;
+}
+.copyright{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    font-size: 11px;
+    color: #90949C;
+    padding-bottom: 20px;
+}
