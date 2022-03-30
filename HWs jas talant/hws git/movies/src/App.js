@@ -7,7 +7,6 @@ import Les3 from './les2/Les3';
 import Lesson3 from './les3/Lesson3';
 import NavBar from './components/les6/navbar';
 import MoviesPage from './components/les6/moviesPage';
-import MovieCard from './components/les6/movieCard';
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -17,6 +16,8 @@ function App() {
     .then((res) => res.json())
     .then((data) => setMovies(data.results))
   }, [])
+  console.log(movies)
+  console.log(movies[12])
   return (
     <>
       <NavBar/>
@@ -35,7 +36,7 @@ function App() {
         <Route path='/hw1' element={<Les3 />} />
         <Route path='/lesson3' element={<Lesson3/>} />
         <Route path='/Movies' element={<MoviesPage/>} />
-        <Route path='/Movies/12' element={<MovieCard movie={movies[12]}/>} />
+        <Route path='/Movies/:id' element={<MoviesPage/>} />
         <Route path='/lesson3/fib' element={<Lesson3/>} />
         <Route path='/lesson3/counter' element={<Lesson3/>} />
         <Route path='/lesson3/checkNumber' element={<Lesson3/>} />
