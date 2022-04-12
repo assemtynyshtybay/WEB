@@ -13,7 +13,6 @@ class Counter extends React.Component {
   componentWillUnmount() {
     clearInterval(this.interval)
   }
-
   startCountDown = () => {
     clearInterval(this.interval);
     this.setState({count: this.props.count})

@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import TracksTable from './components/table';
 import { Routes, Route } from 'react-router-dom';
 import Shrek from './les2/shrek';
@@ -11,20 +11,15 @@ import SignInPage from './pages/signInPage';
 import SignUpPage from './pages/SignUpPage';
 import {Auth} from './components/context/Auth';
 import CounterFunc from './les3/counter_func';
+import TodoPage from './components/Todo/TodoPage';
+import { Todo } from './components/context/Todo';
 
 function App() {
-  const [movies, setMovies] = useState([]);
   const [token, setToken] = useState(localStorage.getItem('idToken'))
-
-  useEffect(() => {
-    fetch('https://api.themoviedb.org/3/discover/movie?api_key=d65708ab6862fb68c7b1f70252b5d91c&language=ru-RU&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate')
-    .then((res) => res.json())
-    .then((data) => setMovies(data.results))
-  }, [])
-  console.log(movies)
-  console.log(movies[12])
+  const [todo,setTodo] = useState(JSON.parse(localStorage.getItem('todos')))
   return (
     <Auth.Provider value={{ token, setToken }}>
+      <Todo.Provider value={{todo, setTodo}}>
       <NavBar/>
       {/* <nav className='nav'>
         <Link to='/'>Top tracks</Link>
@@ -48,7 +43,9 @@ function App() {
         <Route path='/signin' element={<SignInPage />} />
         <Route path='/signup' element={<SignUpPage />} />
         <Route path='/Counter' element={<CounterFunc />} />
+        <Route path='/Todo%20List' element={<TodoPage />} />
       </Routes>
+      </Todo.Provider>
     </Auth.Provider>
   );
 }

@@ -17,7 +17,7 @@ import {useContext} from "react";
 import {Auth} from "..//context/Auth";
 import styled from '@emotion/styled';
 
-const pages = ['Top Tracks','About Shrek', 'hw1', 'Lesson3', 'Movies','Counter'];
+const pages = ['Top Tracks','About Shrek', 'hw1', 'Lesson3', 'Movies','Counter','Todo List'];
 
 const Frame = styled('div')`
   display: flex;
